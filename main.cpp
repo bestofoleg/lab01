@@ -5,6 +5,7 @@ using namespace std;
 class Base
 {
 public:
+	int i;
     Base() { cout << "Construct Base object\n"; }
     ~Base() { cout << "Destruct Base object\n"; }
 
