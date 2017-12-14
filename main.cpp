@@ -12,7 +12,9 @@ public:
 class Child: public Base
 {
 public:
-    Child() { cout << "Construct Child object\n"; }
+    Child() { cout << "Construct Child object\n";
+		cout<<"Some changes in Child";
+	}
     ~Child() { cout << "Destruct Child object\n"; }
 };
 
