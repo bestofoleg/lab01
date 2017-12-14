@@ -17,6 +17,7 @@ public:
     Child() { cout << "Construct Child object\n"; }
     ~Child() { cout << "Destruct Child object\n"; }
 
+	float a;
     void func() const { cout << "Function func() of class Child\n"; }
 };
 
@@ -28,6 +29,8 @@ void Function(const Base &obj)
 
 int main(int argc, char *argv[])
 {
+	int a;
+	
     cout << "* Create Object base" << endl;
     Base base;
 
